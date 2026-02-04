@@ -1,0 +1,81 @@
+body{
+margin:0;
+font-family:Arial;
+background:#fff0f5;
+text-align:center;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(45deg,#ff9a9e,#fad0c4);
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+button{
+padding:10px 25px;
+border:none;
+border-radius:20px;
+background:#ff5fa2;
+color:white;
+cursor:pointer;
+}
+
+section{padding:50px 20px;}
+
+.compare{
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+.compare img{
+width:180px;
+border-radius:15px;
+}
+
+.hug{
+width:220px;
+margin-top:20px;
+border-radius:20px;
+}
+
+.card{
+background:white;
+width:260px;
+margin:15px auto;
+padding:15px;
+border-radius:15px;
+box-shadow:0 0 10px pink;
+}
+
+video{
+width:300px;
+border-radius:15px;
+}
+
+#answers button{
+display:block;
+margin:10px auto;
+}
+
+footer{
+padding:20px;
+background:#ffb6c1;
+}
+.photos img{
+width:160px;
+margin:8px;
+border-radius:15px;
+transition:.4s;
+}
+
+.photos img:hover{
+transform:scale(1.1);
+}
+
+.caption{
+font-weight:bold;
+color:#ff5fa2;
+}
